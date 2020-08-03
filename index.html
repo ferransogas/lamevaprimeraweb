@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaMevaPrimeraWeb</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <header class="inici">
+    LA MEVA PRIMERA WEB
+    </header>
+
+    <table class="taulaprincipal" align="center">
+        <tr>
+            <td>
+                <a href="{{ url_for('segonapagina') }}">
+                    <img class="apartat" src="/img/deures-horadeaventuras.png" alt="">
+                </a>
+            </td>
+            <td>
+                <a href="{{ url_for('tercerapagina') }}">
+                    <img class="apartat" src="/img/apunts-horadeaventuras.png" alt="">
+                </a>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
