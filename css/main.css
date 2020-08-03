@@ -1,0 +1,36 @@
+body {
+    background-color: #a9d1d3;
+    background-image: url("https://i.ibb.co/BB8d4GC/flamingos.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.resta {
+    text-align: center;
+    font-size: 500%;
+    font-family: fantasy;
+    color: darkslategray;
+    text-shadow: white 6px 5px;
+}
+.inici {
+    text-align: center;
+    font-size: 500%;
+    margin-top: 6.8%;
+    font-family: fantasy;
+    color: darkslategray;
+    text-shadow: white 6px 5px;
+}
+.taulaprincipal {
+    margin-top: 2%;
+}
+.apartat {
+    max-width: 90%;
+    height: 90%;
+}
